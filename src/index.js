@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ImageSlider from './ImageSlider';
+import ImageSlider from './ImageSliders';
 import Bomb from './Bomb';
 
 ReactDOM.render(
@@ -9,4 +9,3 @@ ReactDOM.render(
     <Bomb initialCount={120} />
   </div>,
   document.getElementById('root')
-);
